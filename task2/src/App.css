@@ -1,0 +1,65 @@
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Navbar */
+.brand-dot {
+  color: #e63946;
+}
+
+/* Hero */
+#hero {
+  background: linear-gradient(135deg, #e63946, #ff6b6b);
+  padding: 100px 0 80px;
+  border: 2px solid #fff;
+
+}
+
+#hero p {
+  max-width: 600px;
+  opacity: 0.9;
+}
+
+.btn-hero {
+  color: #e63946;
+  border: 2px solid transparent;
+  transition: border 0.2s;
+}
+
+.btn-hero:hover {
+  border: 2px solid #fff;
+}
+
+/* Product Card */
+.product-card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* CTA */
+#cta {
+  background: #1d3557;
+}
+
+#cta p {
+  max-width: 500px;
+  opacity: 0.85;
+}
+
+.btn-cta {
+  background: #e63946;
+  color: #fff;
+
+}
+
+/* Footer */
+footer.site-footer {
+  background: #0d1b2a;
+  color: #adb5bd;
+}
